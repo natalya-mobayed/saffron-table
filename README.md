@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Saffron Table – Restaurant Ordering System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
+Saffron Table is a restaurant ordering website created using React for our CSCI426 Advanced Web Programming course at LIU.
 
-## Available Scripts
+This is a frontend-only project for Phase 1.
 
-In the project directory, you can run:
+## Features
+- Home page with a welcome message
+- About Us page
+- Menu with four dishes and pictures
+- Dynamic dish details pages
+- Add to Cart and Remove from Cart
+- Cart total and checkout form
+- Order tracking demonstration
+- Contact Us page
+- Responsive design for desktop and mobile
 
-### `npm start`
+## Technologies Used
+- React
+- JavaScript
+- HTML and CSS
+- React Router
+- LocalStorage
+- Git and GitHub
+- Netlify
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to Run the Project
+1. Download or clone the GitHub repository.
+2. Open the project folder in Visual Studio Code.
+3. Open the terminal.
+4. Run `npm install`.
+5. Run `npm start`.
+6. Open `http://localhost:3000` in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Links
+Live Website: https://poetic-profiterole-7c2420.netlify.app
 
-### `npm test`
+GitHub Repository: https://github.com/natalya-mobayed/saffron-table
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Screenshots
+Screenshots of the website pages are included in our PDF Project Report.
 
-### `npm run build`
+## Important Note
+This project is a frontend demonstration. There is no backend, database, online payment, or real order tracking system.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Group Members
+- Natalya Mobayed
+- Mariam Hijazi
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Course Information
+University: LIU
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Course: CSCI426 – Advanced Web Programming
 
-### `npm run eject`
+Instructor: Dr. Mirna Mokhtar
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Semester: Fall 2026
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Image Sources
+Food images were obtained from the internet for educational purposes.
