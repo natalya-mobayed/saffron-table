@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.dish-card h2 {
+  color: #d97728;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dish-card a {
+  color: #d97728;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input,
+textarea {
+  display: block;
+  width: 100%;
+  max-width: 450px;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+textarea {
+  min-height: 120px;
+}
+
+footer {
+  background-color: #182435;
   color: white;
+  text-align: center;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* Responsive design */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 768px) {
+  .menu-list {
+    grid-template-columns: 1fr;
   }
-  to {
-    transform: rotate(360deg);
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .home,
+  .about,
+  .menu,
+  .dish-details,
+  .cart,
+  .tracking,
+  .contact {
+    margin: 15px;
+    padding: 15px;
   }
 }

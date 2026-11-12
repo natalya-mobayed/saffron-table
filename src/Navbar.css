@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #182435;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar h1 {
+  color: #f5a64a;
+  margin-bottom: 15px;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #f5a64a;
+}
+
+@media (max-width: 768px) {
+  .navbar nav {
+    gap: 12px;
+  }
+}

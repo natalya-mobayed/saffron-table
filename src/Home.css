@@ -1,0 +1,39 @@
+.home {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.home h1 {
+  font-size: 42px;
+  color: #d97728;
+}
+
+.home h2 {
+  font-size: 28px;
+  color: #243044;
+}
+
+.home p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.home button {
+  background-color: #d97728;
+  color: white;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: 40px 15px;
+  }
+
+  .home h1 {
+    font-size: 30px;
+  }
+}
